@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   box-sizing: border-box;
+    font-family: 'Releway', sans-serif;
+    background-color: #ebebeb 
+}
+    
+    
+
+/* .destacado{
+    background-image: url(../img/banner.png);
+    max-height: 30%;
+    background-size: 100%;
+   background-repeat: no-repeat;
+   padding: 70px;
+  ;
+} */
+
+#banner{
+    
+    
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+}
+#banner-h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+ }
+
+ #banner-h4{
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 400;
+   padding-bottom: 1rem; 
+   padding-top: 1rem;
+ }
+
+.joy-txt{
+    display: flex;
+    margin-left: 1rem;
+    text-align: left;
+    justify-items: left;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.joystick{
+   max-width: 1.5rem;
+   max-height: 1.5rem
+   ;
+}
+.logo-azul{
+    color:#2a7ae4;
+}
+.star-wars{
+    margin: 4rem;
+}
+.div-star{
+    display: flex;
+     margin-top: 0.2rem;
+    
+    
+}
+.titulo-starWars{
+   
+    font-size: 32px;
+    color: #464646;
+    justify-content: start;
+}
+
+.parrafo-verTodo{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+        
+}
+.ver-mas{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    margin-top: 1rem;
+}
+.footer{
+    display: flex;
+    background-color: #eaf2fd;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+

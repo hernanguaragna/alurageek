@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Geek -Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./styles/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand">
+                <div class="joy-txt">
+                  <img class="joystick" src="./img/joystick.png" alt="joystick">
+                <p class="logo-azul">Alura</p>
+                <p>Geek</p>  
+                </div>
+                
+
+              </a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+                
+              </form>
+              <div class="login ">
+                <a href="login.html"><button class="btn btn-outline-primary type" style="margin-right: 6px" submit">Login</button></a>
+                <a href="home.html"><button class="btn btn-outline-Light type" style="margin-right: 6px" submit">Volver</button></a>
+        </div>
+            </div>
+          </nav> 
+    </header>
+
+    <main>
+        
+        <div class="mb-2">
+            <h1 class="title" >Escribenos</h1>
+            <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre...">
+        <label for="exampleFormControlInput1" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">¿Qué nos queres decir?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tu mensaje aquí..."></textarea>
+        
+      </div> 
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enviar
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Mensaje enviado</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Gracias por ponerte en contacto con AluraGeek, en breve te estaremos respondiendo.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <div class="logo-footer">
+              <img src="./img/Logo.png" alt="logo">  
+            </div>
+            <div class="lista-footer">
+              <a href="#" class="btn btn-link" style="text-decoration:none;color: black;">Contactenos</a>
+              <a href="#" class="btn btn-link" style="text-decoration:none;color: black;">Políticas de Privacidad</a>
+              <a href="#" class="btn btn-link" style="text-decoration:none;color: black;">Quiénes somos</a>
+              <a href="#" class="btn btn-link"style="text-decoration:none;color: black;">Nuestras tiendas</a>
+              <a href="#" class="btn btn-link"style="text-decoration:none;color: black;">Trabáje con nosotros</a>
+             
+              
+ 
+            </div>
+            
+            
+            <div class="contactenos-footer">
+                
+        </div> 
+    </footer>
+    <rodapie>
+        <rodapie>
+            <div class="rodapie" style=" background-color: #3E6D9C;font-size: 1.3rem;display: flex;justify-content:center;text-align: center">
+                <address>
+                    <p style="color:#FF731D"> Design by<p style="color:#59CE8F;"> Hernán Guaragna</p></p> 
+                    
+                    <a href="https://github.com/hernanguaragna"><img src="./img/at.svg" alt="" style="margin: 3px"></a>
+                    <a href="mailto:hernanguaragna@gmail.com"><E-mail><img src="./img/github.svg" alt=""style="margin:3px"></E-mail></a>
+                    <a href="https://www.linkedin.com/in/hernanguaragna/"><img src="./img/linkedin.svg" alt=""style="margin:3px"></a>
+                </address>
+              </div>
+          </rodapie>
+    </rodapie>
+  
+    
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
